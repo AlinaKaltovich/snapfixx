@@ -1,0 +1,34 @@
+{
+  "name": "dip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlinaKaltovich/dip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlinaKaltovich/dip/issues"
+  },
+  "homepage": "https://github.com/AlinaKaltovich/dip#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "development": "0.0.6",
+    "file-loader": "^2.0.0",
+    "node-sass": "^4.9.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-livereload-plugin": "^2.1.1"
+  },
+  "dependencies": {
+    "reset-css": "^4.0.1"
+  }
+}
